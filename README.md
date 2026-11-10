@@ -13,6 +13,31 @@
 
 ---
 
+## 📊 Repository Languages & Codebase Distribution
+
+<div align="center">
+
+![Python](https://img.shields.io/badge/Python-74.6%25-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![HTML5 / Tailwind](https://img.shields.io/badge/HTML5%20%2F%20Tailwind%20CSS-22.6%25-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![JSON & Config](https://img.shields.io/badge/JSON%20%26%20Config-2.8%25-F7DF1E?style=for-the-badge&logo=json&logoColor=black)
+
+</div>
+
+<div style="width: 100%; background-color: #E2E8F0; border-radius: 8px; overflow: hidden; height: 14px; display: flex; margin: 10px 0;">
+  <div style="width: 74.6%; background-color: #3572A5;" title="Python: 74.6%"></div>
+  <div style="width: 22.6%; background-color: #E34C26;" title="HTML5 & CSS3: 22.6%"></div>
+  <div style="width: 2.8%; background-color: #F1E05A;" title="JSON & Config: 2.8%"></div>
+</div>
+
+| Language / Layer | Percentage | Primary Responsibilities & Architectural Modules |
+| :--- | :---: | :--- |
+| 🔵 **Python** | **74.6%** | Core AI logic: MobileNetV2 Deep Learning (`models/cnn_imaging.py`), MLP Neural Network & Random Forest (`models/vitals_ml_classifier.py`), Clinical NLP Engine (`models/nlp_triage.py`), NEWS2 Protocol (`utils/risk_scoring.py`), Streamlit UI (`app.py`), Flask REST API (`flask_app.py`), Gradio (`gradio_app.py`). |
+| 🟠 **HTML5 / CSS3 / Tailwind** | **22.6%** | Responsive Hospital ICU Bedside Portal (`templates/index.html`) featuring real-time telemetry sliders, pulse alert badges, and interactive radiograph viewer. |
+| 🟡 **JSON & Structured Data** | **2.7%** | ICU patient clinical cohort records (`sample_data/sample_patients.json`) and Vercel cloud serverless deployment rules (`vercel.json`). |
+| ⚪ **TOML & Text Specs** | **0.1%** | Streamlit Cloud theme customization (`.streamlit/config.toml`), package manifests (`requirements.txt`, `packages.txt`). |
+
+---
+
 ## 📌 Executive Summary
 
 In acute care environments (ICUs, Step-Down Units, and General Wards), **unexpected cardiac arrest (Code Blue) and refractory septic shock** rarely occur without warning. Clinical studies demonstrate that **over 75% of deteriorating patients exhibit measurable physiological decline 6 to 8 hours prior to catastrophic collapse**. However, high nurse-to-patient ratios, alarm fatigue, and siloed diagnostic data result in **"Failure to Rescue"**.
