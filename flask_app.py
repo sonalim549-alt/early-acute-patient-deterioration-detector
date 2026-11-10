@@ -6,6 +6,8 @@ deep learning imaging diagnostics with Grad-CAM, and clinical NLP triage.
 """
 
 import os
+import sys
+sys.stdout.reconfigure(encoding='utf-8')
 import json
 import base64
 import io
